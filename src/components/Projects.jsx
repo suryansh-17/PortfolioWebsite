@@ -17,6 +17,7 @@ function Projects() {
         techStack="React+Tailwind"
         description="A password genator that can take inputs from user about passoword needs and can generate password accordingly"
         codeLink="https://github.com/suryansh-17/reactMiniProjects/tree/main/passwordGen"
+        liveSiteLink="https://fit-fork.vercel.app/"
       />
     </div>
   );
