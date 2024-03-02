@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-[Website Link](suryansh17.vercel.app)
+suryansh17.vercel.app
 
 This repository contains the source code for my personal portfolio website. The website is built using React and Redux to showcase my projects, skills, and experience.
 
