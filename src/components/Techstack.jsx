@@ -5,7 +5,7 @@ import redux from "../assets/redux.svg";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import javascript from "../assets/js.svg";
-import tailwind from "../assets/tailwind.svg";
+import tailwind from "../assets/tailwind.png";
 import java from "../assets/java.svg";
 import appwrite from "../assets/appwrite.svg";
 
@@ -27,13 +27,14 @@ function Techstack() {
       name: "javascript",
       img: javascript,
     },
-    {
-      name: "tailwind",
-      img: tailwind,
-    },
+
     {
       name: "redux",
       img: redux,
+    },
+    {
+      name: "tailwind",
+      img: tailwind,
     },
     {
       name: "appwrite",

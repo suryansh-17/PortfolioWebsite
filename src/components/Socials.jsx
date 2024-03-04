@@ -2,22 +2,21 @@ import React from "react";
 import Heading from "./Heading";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.png";
-import github from "../assets/github.svg";
-import discord from "../assets/discord.svg";
+import github from "../assets/github.png";
+import discord from "../assets/discord.png";
 import telegram from "../assets/telegram.svg";
 import linkedin from "../assets/linkedin.svg";
 function Socials() {
   const socialsList = [
     {
-      name: "linkedin",
-      img: linkedin,
-      url: "https://www.linkedin.com/in/suryansh-pandey-0b2966252/",
-    },
-
-    {
       name: "twitter",
       img: twitter,
       url: "https://twitter.com/1nfern017",
+    },
+    {
+      name: "linkedin",
+      img: linkedin,
+      url: "https://www.linkedin.com/in/suryansh-pandey-0b2966252/",
     },
     {
       name: "github",
@@ -54,7 +53,7 @@ function Socials() {
                   <img
                     src={item.img}
                     alt={item.name}
-                    className="w-12 hover:w-14"
+                    className="w-12 rounded-xl"
                   />
                 </a>
               </li>
