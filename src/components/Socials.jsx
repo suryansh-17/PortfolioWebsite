@@ -6,12 +6,13 @@ import github from "../assets/github.png";
 import discord from "../assets/discord.png";
 import telegram from "../assets/telegram.svg";
 import linkedin from "../assets/linkedin.svg";
+import leetcode from "../assets/leetcode.png";
 function Socials() {
   const socialsList = [
     {
       name: "twitter",
       img: twitter,
-      url: "https://twitter.com/1nfern017",
+      url: "https://twitter.com/suryansh17p",
     },
     {
       name: "linkedin",
@@ -32,6 +33,11 @@ function Socials() {
       name: "telegram",
       img: telegram,
       url: "https://t.me/suryansh_17",
+    },
+    {
+      name: "leetcode",
+      img: leetcode,
+      url: "https://leetcode.com/suryansh_17/",
     },
     {
       name: "instagram",
