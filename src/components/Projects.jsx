@@ -1,7 +1,6 @@
 import React from "react";
 import Heading from "../components/Heading";
 import Card from "./Card";
-import { FaArrowRight } from "react-icons/fa";
 
 function Projects() {
   return (
@@ -14,13 +13,9 @@ function Projects() {
           <>
             <ul>
               <li className="flex items-center ">
-                <FaArrowRight className="mr-2 text-green-500" /> A full-stack
-                recipe sharing website to share veg healthy recipes.
-              </li>
-              <li className="flex items-center">
-                <FaArrowRight className="mr-2 text-green-500" />
-                Users can view post by others, add, update, delete and view
-                their own posts.
+                A full-stack recipe sharing website to share veg healthy recipes
+                where users can view post by others, add, update, delete and
+                view their own posts.
               </li>
             </ul>
           </>
@@ -29,24 +24,15 @@ function Projects() {
         liveSiteLink="https://fit-fork.vercel.app/"
       />
       <Card
-        projectName="Rupay Track"
-        techStack="Vite+React+Tailwind+Redux+Appwrite"
+        projectName="YouTube Back-end Clone"
+        techStack="Node.js+Express+MongoDB+JavaScript"
         description={
           <>
             <ul>
               <li className="flex items-center ">
-                <FaArrowRight className="mr-2 text-green-500" /> A full stack
-                personal expenses tracker website.
-              </li>
-              <li className="flex items-center">
-                <FaArrowRight className="mr-2 text-green-500" />
-                Users can add income and expenses and track their monthly
-                expenses.
-              </li>
-              <li className="flex items-center">
-                <FaArrowRight className="mr-2 text-green-500" />
-                Users can visualize analytics of their transactions category
-                wise and month wise.
+                A feature-rich YouTube backend clone API having functionalities
+                such as video management, user authentication, commenting
+                system, subscription management, and more.
               </li>
             </ul>
           </>
