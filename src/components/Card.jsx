@@ -22,17 +22,20 @@ const Card = ({
         <p className="text-black dark:text-white">{description}</p>
       </div>
       <div className="card-footer flex justify-between p-4">
-        <a
-          href={liveSiteLink}
-          rel="noopener noreferrer"
-          target="_blank"
-          className="btn btn-primary"
-        >
-          <button class="flex bg-transparent hover:bg-green-500 text-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">
-            <CiGlobe className="flex m-auto mr-1" />
-            Live
-          </button>
-        </a>
+        {liveSiteLink && (
+          <a
+            href={liveSiteLink}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="btn btn-primary"
+          >
+            <button class="flex bg-transparent hover:bg-green-500 text-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">
+              <CiGlobe className="flex m-auto mr-1" />
+              Live
+            </button>
+          </a>
+        )}
+
         <a
           href={codeLink}
           rel="noopener noreferrer"
