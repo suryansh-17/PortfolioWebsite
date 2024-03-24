@@ -37,7 +37,7 @@ function Projects() {
             </ul>
           </>
         }
-        codeLink="https://github.com/suryansh-17/reactMiniProjects/tree/main/passwordGen"
+        codeLink="https://github.com/suryansh-17/Youtube-Clone"
       />
     </div>
   );
