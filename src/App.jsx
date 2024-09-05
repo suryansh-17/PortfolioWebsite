@@ -7,6 +7,7 @@ import Socials from "./components/Socials";
 import Techstack from "./components/Techstack";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 function App() {
   const mode = useSelector((state) => state.themeMode.mode);
 
@@ -21,6 +22,7 @@ function App() {
       <AboutMe />
       <Socials />
       <Techstack />
+      <Experience />
       <Projects />
       <Footer />
     </>

@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import Heading from "./Heading";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.png";
@@ -7,7 +9,13 @@ import discord from "../assets/discord.png";
 import telegram from "../assets/telegram.svg";
 import linkedin from "../assets/linkedin.svg";
 import leetcode from "../assets/leetcode.png";
+
 function Socials() {
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Trigger animation only once
+    threshold: 0.1, // Trigger when 10% of the element is visible
+  });
+
   const socialsList = [
     {
       name: "twitter",
@@ -45,29 +53,37 @@ function Socials() {
       url: "https://www.instagram.com/suryansh.017?igsh=YzcycTFheDg5dWk4",
     },
   ];
-  console.log(socialsList[0].img);
-  console.log(instagram);
+
   return (
-    <>
-      <div className="mt-7">
-        <Heading>Get in Touch</Heading>
-        <div className="m-4 ml-0">
-          <ul className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-10">
-            {socialsList.map((item) => (
-              <li key={item.name} className="mt-3 m-auto">
-                <a href={item.url} target="_blank">
-                  <img
-                    src={item.img}
-                    alt={item.name}
-                    className="w-12 rounded-xl"
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <div className="mt-7">
+      <Heading>Get in Touch</Heading>
+      <div className="m-4 ml-0">
+        <ul
+          ref={ref}
+          className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-4"
+        >
+          {socialsList.map((item) => (
+            <motion.li
+              key={item.name}
+              initial={{ opacity: 0, y: 20 }} // Initial state for animation
+              animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }} // Animation when in view
+              transition={{ duration: 0.6, type: "spring", stiffness: 300 }}
+              whileHover={{ scale: 1.15, rotate: 5 }}
+              whileTap={{ scale: 1.1 }}
+              className="flex items-center justify-center p-1 md:p-2"
+            >
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.img}
+                  alt={item.name}
+                  className="w-10 h-10 md:w-12 md:h-12 rounded-xl"
+                />
+              </a>
+            </motion.li>
+          ))}
+        </ul>
       </div>
-    </>
+    </div>
   );
 }
 

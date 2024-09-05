@@ -24,7 +24,7 @@ function Hero() {
           </div>
           <div className="font-mono  text-neutral-800 dark:text-slate-50">
             <p className="text-xl text-green-500 font-bold dark:text-green-500">
-              Student x Web Developer
+              Full Stack Developer
             </p>
             <p className="text-md">📍Bengaluru</p>
             <a

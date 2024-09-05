@@ -7,6 +7,22 @@ function Projects() {
     <div className="mt-7">
       <Heading>Projects</Heading>
       <Card
+        projectName="VidSync API"
+        techStack="Node.js+Express+MongoDB"
+        description={
+          <>
+            <ul>
+              <li className="flex items-center ">
+                A feature-rich YouTube backend clone API having functionalities
+                such as video management, user authentication, commenting
+                system, subscription management, and more.
+              </li>
+            </ul>
+          </>
+        }
+        codeLink="https://github.com/suryansh-17/Youtube-Clone"
+      />
+      <Card
         projectName="FitFork"
         techStack="Vite+React+Tailwind+Redux+Appwrite"
         description={
@@ -22,22 +38,6 @@ function Projects() {
         }
         codeLink="https://github.com/suryansh-17/FitFork"
         liveSiteLink="https://fit-fork.vercel.app/"
-      />
-      <Card
-        projectName="YouTube Back-end Clone"
-        techStack="Node.js+Express+MongoDB+JavaScript"
-        description={
-          <>
-            <ul>
-              <li className="flex items-center ">
-                A feature-rich YouTube backend clone API having functionalities
-                such as video management, user authentication, commenting
-                system, subscription management, and more.
-              </li>
-            </ul>
-          </>
-        }
-        codeLink="https://github.com/suryansh-17/Youtube-Clone"
       />
     </div>
   );
