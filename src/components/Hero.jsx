@@ -13,7 +13,7 @@ function Hero() {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Suryansh Pandey")
+                  .typeString("Kishan Kumar N")
                   .callFunction(() => {
                     console.log("String typed out!");
                   })

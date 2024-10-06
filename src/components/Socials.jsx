@@ -40,12 +40,12 @@ function Socials() {
     {
       name: "telegram",
       img: telegram,
-      url: "https://t.me/suryansh_17",
+      url: "https://t.me/Kishan_17",
     },
     {
       name: "leetcode",
       img: leetcode,
-      url: "https://leetcode.com/suryansh_17/",
+      url: "https://leetcode.com/kishan_17/",
     },
     {
       name: "instagram",
