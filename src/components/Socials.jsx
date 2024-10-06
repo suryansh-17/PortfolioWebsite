@@ -9,6 +9,7 @@ import discord from "../assets/discord.png";
 import telegram from "../assets/telegram.svg";
 import linkedin from "../assets/linkedin.svg";
 import leetcode from "../assets/leetcode.png";
+import codef from "/project/workspace/src/assets/codef.svg";
 
 function Socials() {
   const { ref, inView } = useInView({
@@ -51,6 +52,11 @@ function Socials() {
       name: "instagram",
       img: instagram,
       url: "https://www.instagram.com/suryansh.017?igsh=YzcycTFheDg5dWk4",
+    },
+    {
+      name: "codef",
+      img: codef,
+      url: "https://t.me/Kishan_17",
     },
   ];
 
