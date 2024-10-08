@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Codingp from "./components/Codingp";
 import Socials from "./components/Socials";
 import Techstack from "./components/Techstack";
 import Projects from "./components/Projects";
@@ -20,6 +21,7 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
+      <Codingp />
       <Socials />
       <Techstack />
       <Experience />

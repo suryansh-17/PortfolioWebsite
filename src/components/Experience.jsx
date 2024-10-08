@@ -8,23 +8,15 @@ const Experience = () => {
       <Heading>Experience</Heading>
       <div className="flex justify-center items-center">
         <Card
-          projectName="Mpower"
-          position="Full Stack Developer (April 24 - Aug 24)"
+          projectName="Center of Image Processing, Ramaiah Institute of Technology"
+          position="Student Intern (March 24 - May 24)"
           description={
-            <>
-              <ul>
-                <li className="flex items-center ">
-                  During my internship at mPower, I worked as a Full Stack
-                  Developer, leveraging Next.js, Java, and AWS to build scalable
-                  web applications. I contributed to developing core features,
-                  optimized backend processes, and collaborated closely with the
-                  team to enhance user experiences, demonstrating my skills in
-                  modern web technologies and cloud integration.
-                </li>
-              </ul>
-            </>
+            <ul className="list-disc list-inside">
+              <li>Developed and implemented ML/DL models, increasing classification accuracy of utterances in IR and RGB images by 15%, enhancing the precision of automated image analysis systems.</li>
+              <li>Annotated a large dataset of IR images to improve model training, leading to a significant 78% increase in accuracy.</li>
+              <li>Integrated optimized models into the existing pipeline, reducing false classifications by 20% and improving overall system performance.</li>
+            </ul>
           }
-          liveSiteLink="https://platform.mpowerngo.com"
         />
       </div>
     </div>

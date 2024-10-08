@@ -10,6 +10,9 @@ import telegram from "../assets/telegram.svg";
 import linkedin from "../assets/linkedin.svg";
 import leetcode from "../assets/leetcode.png";
 import codef from "/project/workspace/src/assets/codef.svg";
+import gfg from "/project/workspace/src/assets/gfg.png";
+import codeforces from "/project/workspace/src/assets/codeforces.svg";
+import git1 from "/project/workspace/src/assets/git1.png";
 
 function Socials() {
   const { ref, inView } = useInView({
@@ -18,45 +21,31 @@ function Socials() {
   });
 
   const socialsList = [
-    
     {
-      name: "linkedin",
-      img: linkedin,
-      url: "https://www.linkedin.com/in/kishan-kumar-n-855058234/",
+      name: "leetcode",
+      img: leetcode,
+      url: "https://leetcode.com/kishan_17/",
     },
     {
-      name: "github",
-      img: github,
-      url: "https://github.com/Kishan9535",
+      name: "codeforces",
+      img: codeforces,
+      url: "https://codeforces.com/profile/TopGun_k17",
     },
     {
-      name: "twitter",
-      img: twitter,
-      url: "https://x.com/KISHANKUMA46801",
+      name: "gfg",
+      img: gfg,
+      url: "https://www.geeksforgeeks.org/user/kishan_17/",
     },
     {
-      name: "instagram",
-      img: instagram,
-      url: "https://www.instagram.com/kishan.kumar17/",
+      name: "git1",
+      img: git1,
+      url: "https://github.com/kishan9535",
     },
-    {
-      name: "discord",
-      img: discord,
-      url: "https://discord.com/users/26914144127127",
-    },
-    {
-      name: "telegram",
-      img: telegram,
-      url: "https://t.me/Kishan_177",
-    },
-    
-    
-    
   ];
 
   return (
     <div className="mt-7">
-      <Heading>Get in Touch</Heading>
+      <Heading>Coding Profiles</Heading>
       <div className="m-4 ml-0">
         <ul
           ref={ref}
