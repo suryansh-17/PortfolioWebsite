@@ -36,7 +36,7 @@ function AboutMe() {
             problem-solving skills
           </span>{" "}
           on <span className="font-bold text-green-500">LeetCode</span>,{" "}
-          <span className="font-bold text-green-500">CodeChef</span>, and{" "}
+          <span className="font-bold text-green-500">Codeforces</span>, and{" "}
           <span className="font-bold text-green-500">GFG</span>.
         </p>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+
 import Typewriter from "typewriter-effect";
 import { MdOutlineFileDownload } from "react-icons/md";
 
@@ -45,9 +46,9 @@ function Hero() {
                 }}
               />
             </div>
-            <p className="text-md">📍Bengaluru</p>
+            <p className="text-md">📍Bengaluru,India</p>
             <a
-              href="https://drive.google.com/drive/folders/1wWyH_jlrYR9FS80zHLLC2B6EywaYiYVf?usp=sharing"
+              href="https://drive.google.com/file/d/1n9G0Nv_72Cpd6r5ZOnaeLij_gxPchpR3/view?usp=drivesdk"
               rel="noopener noreferrer"
               target="_blank"
               className="btn btn-primary"

@@ -7,37 +7,48 @@ function Projects() {
     <div className="mt-7">
       <Heading>Projects</Heading>
       <Card
-        projectName="VidSync API"
-        techStack="Node.js+Express+MongoDB"
+        projectName="Grocery Store Management"
+        techStack="JavaScript, Node.js, Express.js, MongoDB"
         description={
-          <>
-            <ul>
-              <li className="flex items-center ">
-                A feature-rich YouTube backend clone API having functionalities
-                such as video management, user authentication, commenting
-                system, subscription management, and more.
-              </li>
-            </ul>
-          </>
+          <ul className="list-disc list-inside">
+            <li>
+              Created a web application for small grocery stores to keep track
+              of items they sell and buy daily.
+            </li>
+            <li>
+              Implemented authentication and authorization using Passport.js and
+              connected the website to MongoDB.
+            </li>
+            <li>
+              Executed a search bar to find grocery items and a bill calculator
+              using JavaScript.
+            </li>
+          </ul>
         }
-        codeLink="https://github.com/suryansh-17/Youtube-Clone"
+        codeLink="https://github.com/kishan9535"
       />
       <Card
-        projectName="FitFork"
-        techStack="Vite+React+Tailwind+Redux+Appwrite"
+        projectName="Weather Checker"
+        techStack="HTML5, CSS3, JavaScript, Chart.js"
         description={
-          <>
-            <ul>
-              <li className="flex items-center ">
-                A full-stack recipe sharing website to share veg healthy recipes
-                where users can view post by others, add, update, delete and
-                view their own posts.
-              </li>
-            </ul>
-          </>
+          <ul className="list-disc list-inside">
+            <li>
+              Created an interactive website showcasing various campgrounds,
+              allowing authorized users to add, edit, or delete entries using
+              NodeJS, Express, and APIs for the backend
+            </li>
+            <li>
+              Developed the frontend using HTML and CSS, ensuring a
+              user-friendly interface for seamless interaction.
+            </li>
+            <li>
+              Executed a search bar to find Weather Locations and Display the
+              Weather using JavaScript.
+            </li>
+          </ul>
         }
-        codeLink="https://github.com/suryansh-17/FitFork"
-        liveSiteLink="https://fit-fork.vercel.app/"
+        codeLink="https://github.com/kishan9535/Weather-API-Project"
+        liveSiteLink="https://nammaweather.netlify.app/#"
       />
     </div>
   );

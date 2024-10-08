@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "/project/workspace/src/assets/kk.png";
+
 export default function Logo() {
   return (
     <div className="w-[100px]">
